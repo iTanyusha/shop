@@ -12,7 +12,7 @@ $timeZone = new DateTimeZone('Asia/Jerusalem');
 $now = new DateTime("now", $timeZone);
 $date = new DateTime($release_date, $timeZone);
 
-$notReleased = $now < $date;
+$notReleased = $release_date && $now < $date;
 
 $dateClass = $notReleased ? 'not-released' : '';
 
