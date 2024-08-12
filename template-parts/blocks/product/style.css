@@ -1,0 +1,31 @@
+.products,
+.wp-block-post-content{
+    display: flex !important;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.products div,
+.wp-block-shop-product {
+    width: 33%;
+    border: solid 1px #aaa;
+}
+
+.product {
+    padding: 16px;
+    
+}
+
+.image {
+    width: 100%;
+    max-width: 300px !important;
+}
+
+.not-released {
+    background-color: rgb(255, 167, 167);
+}
+
+.not-released-header {
+    font-size: 12px;
+    color: #f00;
+}

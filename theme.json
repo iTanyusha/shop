@@ -1,0 +1,114 @@
+{
+    "$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+    "version": 2,
+    "styles": {
+        "elements": {
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--monserrat)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--lato)"
+        }
+    },
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "palette": [
+                {
+                    "color": "#ffffff",
+                    "name": "Base",
+                    "slug": "base"
+                },
+                {
+                    "color": "#000000",
+                    "name": "Contrast",
+                    "slug": "contrast"
+                },
+                {
+                    "color": "#666",
+                    "name": "Primary",
+                    "slug": "primary"
+                },
+                {
+                    "color": "#aaa",
+                    "name": "Secondary",
+                    "slug": "secondary"
+                },
+                {
+                    "color": "#F6F6F6",
+                    "name": "Tertiary",
+                    "slug": "tertiary"
+                }
+            ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "\"Monserrat\", sans-serif",
+                    "name": "Monserrat",
+                    "slug": "monserrat",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Monserrat",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/fonts/Montserrat-VariableFont_wght.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Monserrat",
+                            "fontStyle": "italic",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/fonts/dm-sans/Montserrat-Italic-VariableFont_wght.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "Lato",
+                    "name": "Lato",
+                    "slug": "lato",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Lato",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/fonts/Lato-Regular.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Lato",
+                            "fontStyle": "italic",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/fonts/Lato-Italic.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Lato",
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "src": [
+                                "file:./assets/fonts/Lato-Bold.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Lato",
+                            "fontStyle": "italic",
+                            "fontWeight": "700",
+                            "src": [
+                                "file:./assets/fonts/Lato-BoldItalic.ttf"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

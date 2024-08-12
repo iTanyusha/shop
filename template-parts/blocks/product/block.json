@@ -1,0 +1,17 @@
+{
+    "name": "shop/product",
+    "title": "Product block",
+    "description": "Block to display a product",
+    "category": "shop-elements",
+    "icon": "products",
+    "apiVersion": 2,
+    "acf": {
+        "renderTemplate": "./product.php",
+        "mode": "preview"
+    },
+    "supports": {
+        "mode": false,
+        "align": false
+    },
+    "editorStyle": "file:./style.css"
+}
